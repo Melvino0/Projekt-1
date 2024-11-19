@@ -1,0 +1,135 @@
+body {  
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto 1fr 2fr;
+    margin: 0 150px;
+    gap: 15px;
+    background-image: url('/img/5c555bc288a0ac8777b5fa059230b4fc.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+}
+
+.rubrik {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.rubrik2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Lora", serif;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pasta {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.pasta img {
+    max-width: 300px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.historia {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #f0efed;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.historia2 {
+    border-style: solid;
+    border-color: #f0efed;
+    background-color: #f0efed;
+    border-radius: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tid {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.do_this {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.titel_do, .titel_lista {
+    text-align: center;
+    font-style: italic;
+}
+
+.ingredienser {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #f0efed;
+}
+
+.Ingredienser2 {
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+ul li {
+    margin-bottom: 18px;
+}
+
+.do_this ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.do_this li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.do_this li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.do_this label {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+
